@@ -20,11 +20,11 @@ private let answers: [String] = [
         return questions.count
     }
     
-    func question( number num:Int ) -> String {
+    func question( _ num:Int ) -> String {
         return questions[num]
     }
     
-    func answer( number num:Int ) -> String {
+    func answer( _ num:Int ) -> String {
         return answers[num]
     }
 }
